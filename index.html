@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -22,7 +23,7 @@
                 </a>
             </li>
             <li>
-                <a href="#work">
+                <a href="#Work">
                     Work
                 </a>
             </li>
@@ -38,8 +39,7 @@
             </li>
         </ul>
     </nav>
-    <br><br>
-    <section id="About">
+    <section id="About" class="about">
         <h3>About</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit libero magni et aspernatur sint enim
             autem aliquam blanditiis alias dolorum numquam corporis tempora quos deleniti provident laboriosam eveniet,
@@ -59,7 +59,7 @@
         <video src="./assets/2024-11-19 09-29-58.mkv" controls autoplay muted></video>
     </section>
     <br><br>
-    <section id="Work">
+    <section id="Work" class="work">
         <h3>Work</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora magni temporibus est, veritatis laborum,
             possimus sit, suscipit sint quos recusandae voluptas labore quibusdam sed dolor deleniti totam accusamus
@@ -74,7 +74,7 @@
             nemo ducimus alias maiores quae nostrum, cum soluta ab corporis ipsa enim quasi!</p>
     </section>
     <br><br>
-    <section id="Resume">
+    <section id="Resume" class="resume">
         <h3>Resume</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere sint, libero aperiam eligendi corporis quidem
             nostrum non eius architecto repellat aspernatur, quod perferendis eaque laudantium sit debitis similique
@@ -88,23 +88,23 @@
             dolorem unde fugiat distinctio nobis laboriosam, dicta libero pariatur quo modi possimus!</p>
     </section>
     <br><br>
-    <footer id="Contact">
+    <footer id="Contact" class="contact">
         <h2>
             Contact
         </h2>
         <fieldset>
             <form action="">
                 <div>
+                    <label for="">full name</label>
                     <input type="text" placeholder="enter your name">
-                    <label for=""> : full name</label>
                 </div>
                 <div>
+                    <label for="">email</label>
                     <input type="email" placeholder="enter your email">
-                    <label for=""> : email</label>
                 </div>
                 <div>
+                    <label for="">message </label>
                     <textarea name="" id="" placeholder="your message"></textarea>
-                    <label for=""> : message </label>
                 </div>
                 <button type="submit">send</button>
             </form>
